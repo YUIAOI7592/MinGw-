@@ -3,15 +3,15 @@
 
 多方嘗試後：
 <code>
-#include <fcntl.h><br />
-#include <io.h><br />
-int main()<br />
-{<br />
+#include <fcntl.h>
+#include <io.h>
+int main()
+{
   _setmode(_fileno(stdout), _O_U16TEXT);<br />
-  ...<br />
-  ...<br />
-  ...<br />
-}<br />
+  ...
+  ...
+  ...
+}
 </code>
 ## g++ -v
 Using built-in specs.
