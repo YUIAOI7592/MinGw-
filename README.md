@@ -3,8 +3,10 @@
 
 多方嘗試後：
 <p><code>
-#include <fcntl.h>  
-#include <io.h>  
+#include <fcntl.h>
+  
+#include <io.h>
+  
 int main()
 {
   _setmode(_fileno(stdout), _O_U16TEXT);<br />
