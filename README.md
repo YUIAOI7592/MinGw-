@@ -1,5 +1,5 @@
 # MinGwChieseWchar_test
-測試中文顯示
+##測試中文顯示
 
 多方嘗試後：<br />
 #include <fcntl.h><br />
