@@ -2,9 +2,7 @@
 ## 測試中文顯示
 
 多方嘗試後：
-
-<p>
-        <code>
+```
 #include <fcntl.h>
 #include <io.h>
 int main()
@@ -14,8 +12,7 @@ int main()
       ...
       ...
 }
-          </code>
-<p>
+```
 ## g++ -v
 Using built-in specs.
 COLLECT_GCC=C:\msys64\mingw64\bin\g++.exe
