@@ -5,7 +5,7 @@
 
 <p>
         <code>
-#include <fcntl.h>  <br />
+#include <fcntl.h>
 #include <io.h>
 int main()
 {
