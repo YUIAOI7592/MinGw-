@@ -2,15 +2,15 @@
 ## 測試中文顯示
 
 多方嘗試後：
-#include <fcntl.h>
-#include <io.h>
-  int main()
-  {
-   _setmode(_fileno(stdout), _O_U16TEXT);
-   ...
-   ...
-   ...
-  }
+    #include <fcntl.h>
+    #include <io.h>
+      int main()
+      {
+       _setmode(_fileno(stdout), _O_U16TEXT);
+       ...
+       ...
+       ...
+      }
 ## g++ -v
 Using built-in specs.
 COLLECT_GCC=C:\msys64\mingw64\bin\g++.exe
